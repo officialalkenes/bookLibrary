@@ -13,7 +13,7 @@ class Category(models.Model):
         return self.name
     
     
-class Books(models.Model):
+class Book(models.Model):
     title = models.CharField(max_length=80)
     slug = models.SlugField(max_length=100)
     author = models.CharField(max_length=80)
